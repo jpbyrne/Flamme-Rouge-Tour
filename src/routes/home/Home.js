@@ -32,7 +32,7 @@ const stages = [
 
 const Home = () => (
 	<div class={style.Home}>
-		<img src="../assets/images/logo.svg" alt="Flamme Rouge" />
+		<img src="../assets/images/flamme-rouge-logo.svg" alt="Flamme Rouge" />
         <h1>Le Petit Tour 2019</h1>
         <nav>
             <ul>

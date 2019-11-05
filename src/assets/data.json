@@ -24,6 +24,16 @@
                 "bronze": 1
             },
             "split_time": 10
+        },
+        {
+            "team_name": "Blue Steel",
+            "rider_type": "Sprinter",
+            "cups": {
+                "gold": 0,
+                "silver": 0,
+                "bronze": 1
+            },
+            "split_time": 20
         }
     ],
     "team_ranking": [

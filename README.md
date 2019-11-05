@@ -26,3 +26,4 @@ For detailed explanation on how things work, checkout the [CLI Readme](https://g
 * Remove dependency on Google Fonts CDN.
 * Fix FOUC issue.
 * Test layout on mobile devices.
+* Introduce CSS transitions.

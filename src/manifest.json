@@ -1,6 +1,6 @@
 {
-  "name": "Flamme-Rouge-Tour",
-  "short_name": "Flamme-Rouge-Tour",
+  "name": "flamme-rouge-tour",
+  "short_name": "flamme-rouge-tour",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",

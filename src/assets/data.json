@@ -11,7 +11,7 @@
             "cups": {
                 "gold": 1,
                 "silver": 1,
-                "bronze": 1
+                "bronze": 2
             },
             "split_time": 0
         },
@@ -32,9 +32,18 @@
             "cups": {
                 "gold": 1,
                 "silver": 1,
+                "bronze": 2
+            },
+            "points": 4
+        },
+        {
+            "team_name": "Blue Steel",
+            "cups": {
+                "gold": 1,
+                "silver": 1,
                 "bronze": 1
             },
-            "points": 0
+            "points": 3
         }
     ]
 }

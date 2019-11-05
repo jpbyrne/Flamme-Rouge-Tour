@@ -1,10 +1,7 @@
 import { h } from 'preact';
 import style from './Ranking.css';
 
-const teams = {
-	'Sky High': { team_color: 'Black' },
-	'Blue Steel': { team_color: 'Blue' }
-};
+import data from '../../assets/data';
 
 const renderPortrait = (team_color, rider_type) => {
     if (rider_type) {
@@ -76,6 +73,8 @@ const Ranking = ({ title, ranks }) => (
 		<h2>{title} Ranking</h2>
 		<ul>
 			{ranks.map((rank, index) => {
+                let { teams } = data;
+
 				let { team_name, rider_type, cups, split_time, points } = rank;
                 let { team_color } = teams[team_name];
                 

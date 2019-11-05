@@ -1,0 +1,40 @@
+{
+    "teams": {
+        "Sky High": { "team_color": "Black" },
+        "Blue Steel": { "team_color": "Blue" }
+    },
+    "stage": { "completed": 2, "total": 5 },
+    "time_ranking": [
+        {
+            "team_name": "Sky High",
+            "rider_type": "Sprinter",
+            "cups": {
+                "gold": 1,
+                "silver": 1,
+                "bronze": 1
+            },
+            "split_time": 0
+        },
+        {
+            "team_name": "Blue Steel",
+            "rider_type": "Rouleur",
+            "cups": {
+                "gold": 1,
+                "silver": 1,
+                "bronze": 1
+            },
+            "split_time": 10
+        }
+    ],
+    "team_ranking": [
+        {
+            "team_name": "Sky High",
+            "cups": {
+                "gold": 1,
+                "silver": 1,
+                "bronze": 1
+            },
+            "points": 0
+        }
+    ]
+}

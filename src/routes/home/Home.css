@@ -1,0 +1,103 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.Home h1 {
+	margin: 20px 0 24px 0;
+    font-size: 48px;
+}
+
+.Home nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    width: 100%;
+    border-top: 2px solid  #671414;
+	border-bottom: 2px solid  #671414;
+}
+
+.Home nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.Home nav li {
+	cursor: pointer;
+	padding: 12px 36px;
+	font-size: 20px;
+    text-transform: uppercase;
+}
+
+.Home nav li[data-complete="true"] {
+	text-decoration: line-through;
+	color: rgba(103, 20, 20, 0.4);
+}
+
+.Home main {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	padding: 20px 0;
+}
+
+.Home section {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.Home hr {
+	width: 2px;
+	min-height: 100%;
+	margin: 0;
+    border: 0;
+	background-color:  rgb(103, 20, 20);
+}
+
+.Home section ul {
+	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+.Home section ul li {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+	padding: 16px 0;
+}
+
+.Home section ul img {
+	width: 88px;
+	height: 88px;
+}
+
+.Home section ul h3 {
+	flex: 1;
+	padding: 0 40px;
+}
+
+.Home section ul span {
+	border-radius: 8px;
+	padding: 0 16px;
+	background-color: rgb(125, 125, 125);
+	color: rgb(255, 255, 255);
+}
+
+@media (max-width: 640px) {
+	.Home main {
+		flex-direction: column;
+	}
+}

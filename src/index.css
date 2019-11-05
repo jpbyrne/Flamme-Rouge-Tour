@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+body {
+    margin: 0;
+    padding: 40px 0;
+    background-image: url('./assets/images/background.png');
+    font-family: 'Oswald', helvetica, arial, sans-serif;
+    color:  rgb(103, 20, 20);
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Bungee Shade', cursive;
+}

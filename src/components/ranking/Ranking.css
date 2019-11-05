@@ -1,0 +1,92 @@
+.Ranking {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.Ranking > h2 {
+    text-transform: capitalize;
+}
+
+.Ranking > ul {
+    width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.Ranking > ul > li {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+	padding-bottom: 32px;
+}
+
+.Ranking > ul > li:last-child {
+	padding-bottom: 0;
+}
+
+.Ranking-left {
+    position: relative;
+}
+
+.Ranking-left[data-team="true"] {
+    width: 156px;
+}
+
+.Ranking-left > img {
+    width: 88px;
+    height: 88px;
+}
+
+.Ranking-left > img:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 66px;
+}
+
+.Ranking-center {
+    flex: 1;
+	padding: 0 24px;
+}
+
+.Ranking-center > h3 {
+	padding-bottom: 12px;
+}
+
+.Ranking-center > ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.Ranking-center > ul > li {
+    padding-right: 16px;
+}
+
+.Ranking-center > ul > li:last-child {
+    padding-right: 0;
+}
+
+.Ranking-center > span {
+    padding-left: 8px;
+}
+
+.Ranking-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 72px;
+}
+
+.Ranking-right > img {
+    width: 64px;
+}
+
+.Ranking-right > span {
+    width: 56px;
+	border-radius: 8px;
+	background-color: rgb(125, 125, 125);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}

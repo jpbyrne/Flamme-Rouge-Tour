@@ -1,10 +1,7 @@
 import { h } from 'preact';
 import style from './Home.css';
 
-const teams = {
-	'Sky High': { team_color: 'Black' },
-	'Blue Steel': { team_color: 'Blue' }
-};
+import Ranking from '../../components/ranking/Ranking';
 
 const stages = [
 	{
@@ -12,16 +9,34 @@ const stages = [
 			{
 				team_name: 'Sky High',
 				rider_type: 'Sprinter',
+				cups: {
+					gold: 1,
+					silver: 1,
+					bronze: 1,
+				},
 				split_time: 0
 			},
 			{
 				team_name: 'Blue Steel',
 				rider_type: 'Rouleur',
-				split_time: 0
+				cups: {
+					gold: 1,
+					silver: 1,
+					bronze: 1,
+				},
+				split_time: 10
 			}
 		],
 		team_ranking: [
-			
+			{
+				team_name: 'Sky High',
+				cups: {
+					gold: 1,
+					silver: 1,
+					bronze: 1,
+				},
+				points: 0
+			},
 		]
 	},
 	{},
@@ -42,37 +57,9 @@ const Home = () => (
             </ul>
         </nav>
 		<main>
-			<section>
-				<h2>Time Ranking</h2>
-				<ul>
-					{stages[0].time_ranking.map((rider, index) => {
-						let { team_name, rider_type, split_time } = rider;
-						let { team_color } = teams[team_name];
-
-						return (
-							<li>
-								<img
-									src={`../assets/images/rider-portraits/${team_color.toLowerCase()}-${rider_type.toLowerCase()}.png`}
-									alt={`${team_color} ${rider_type}`}
-								/>
-								<h3>{index + 1}. {team_name}'s {rider_type}</h3>
-								{!index ? (
-									<img
-										src="../assets/icons/yellow-jersey-icon.svg"
-										alt="Yellow Jersey"
-									/>
-								) : (
-									<span>+{split_time}"</span>
-								)}
-							</li>
-						);
-					})}
-				</ul>
-			</section>
+			<Ranking title="time" ranks={stages[0].time_ranking} />
 			<hr />
-			<section>
-				<h2>Team Ranking</h2>
-			</section>
+			<Ranking title="team" ranks={stages[0].team_ranking} />
 		</main>
 	</div>
 );

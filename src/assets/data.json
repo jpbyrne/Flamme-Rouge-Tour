@@ -1,7 +1,8 @@
 {
     "teams": {
         "Sky High": { "team_color": "Black" },
-        "Blue Steel": { "team_color": "Blue" }
+        "Blue Steel": { "team_color": "Blue" },
+        "Red Pedals": { "team_color": "Red"}
     },
     "stage": { "completed": 2, "total": 5 },
     "time_ranking": [
@@ -64,6 +65,15 @@
                 "bronze": 2
             },
             "points": 3
+        },
+        {
+            "team_name": "Red Pedals",
+            "cups": {
+                "gold": 0,
+                "silver": 0,
+                "bronze": 1
+            },
+            "points": 1
         }
     ]
 }

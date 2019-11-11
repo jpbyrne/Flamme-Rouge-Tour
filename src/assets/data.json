@@ -2,7 +2,8 @@
     "teams": {
         "Attaque Noire": { "team_color": "Black" },
         "Les Lutins Verts": { "team_color": "Green" },
-        "Sacre Bleu": { "team_color": "Blue"}
+        "Sacre Bleu": { "team_color": "Blue"},
+        "Sauvignon Blancs": {"team_color": "White"}
     },
     "stage": { "completed": 0, "total": 5 },
     "time_ranking": [
@@ -65,6 +66,26 @@
                 "bronze": 0
             },
             "split_time": 0
+        },
+        {
+            "team_name": "Sauvignon Blancs",
+            "rider_type": "Sprinter",
+            "cups": {
+                "gold": 0,
+                "silver": 0,
+                "bronze": 0
+            },
+            "split_time": 0
+        },
+        {
+            "team_name": "Sauvignon Blancs",
+            "rider_type": "Rouleur",
+            "cups": {
+                "gold": 0,
+                "silver": 0,
+                "bronze": 0
+            },
+            "split_time": 0
         }
     ],
     "team_ranking": [
@@ -88,6 +109,15 @@
         },
         {
             "team_name": "Sacre Bleu",
+            "cups": {
+                "gold": 0,
+                "silver": 0,
+                "bronze": 0
+            },
+            "points": 0
+        },
+        {
+            "team_name": "Sauvignon Blancs",
             "cups": {
                 "gold": 0,
                 "silver": 0,

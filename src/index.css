@@ -1,5 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@font-face {
+    font-family: "Bungee Shade";
+    src: url("./assets/fonts/BungeeShade-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url("./assets/fonts/Oswald-Regular.ttf") format("truetype");
+}
 
 body {
     margin: 0;

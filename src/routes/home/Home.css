@@ -8,7 +8,8 @@
 
 .Home h1 {
 	margin: 20px 0 24px 0;
-    font-size: 48px;
+	font-size: 48px;
+	text-align: center;
 }
 
 .Home nav {
@@ -53,8 +54,13 @@
 	background-color:  rgb(103, 20, 20);
 }
 
-@media (max-width: 640px) {
+@media (max-width: 780px) {
 	.Home main {
 		flex-direction: column;
+	}
+
+	.Home nav li {
+		padding-right: 18px;
+		padding-left: 18px;
 	}
 }

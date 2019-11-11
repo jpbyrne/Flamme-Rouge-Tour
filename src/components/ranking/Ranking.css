@@ -61,6 +61,9 @@
 }
 
 .Ranking-center > ul > li {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
     padding-right: 16px;
 }
 
@@ -89,4 +92,28 @@
 	background-color: rgb(125, 125, 125);
     color: rgb(255, 255, 255);
     text-align: center;
+}
+
+@media (max-width: 960px) {
+	.Ranking-center {
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .Ranking-center > ul > li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 780px) {
+    .Ranking-center {
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+
+    .Ranking-center > ul > li {
+        flex-direction: row;
+        align-items: flex-end;
+    }
 }

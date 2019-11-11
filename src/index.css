@@ -3,7 +3,7 @@
 
 body {
     margin: 0;
-    padding: 40px 0;
+    padding: 40px 0 0 0;
     background-image: url('./assets/images/background.png');
     font-family: 'Oswald', helvetica, arial, sans-serif;
     color:  rgb(103, 20, 20);

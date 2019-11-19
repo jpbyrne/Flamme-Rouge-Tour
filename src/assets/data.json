@@ -65,7 +65,7 @@
                 "silver": 0,
                 "bronze": 0
             },
-            "split_time": 2-10
+            "split_time": "2-10"
         },
         {
             "team_name": "Sauvignon Blancs",
@@ -75,7 +75,7 @@
                 "silver": 0,
                 "bronze": 0
             },
-            "split_time": 3-10
+            "split_time": "3-10"
         },
         {
             "team_name": "Sauvignon Blancs",
@@ -85,7 +85,7 @@
                 "silver": 0,
                 "bronze": 0
             },
-            "split_time": 3-10
+            "split_time": "3-10"
         }
     ],
     "team_ranking": [

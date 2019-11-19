@@ -8,30 +8,10 @@
     "stage": { "completed": 0, "total": 5 },
     "time_ranking": [
         {
-            "team_name": "Les Lutins Verts",
-            "rider_type": "Sprinter",
-            "cups": {
-                "gold": 0,
-                "silver": 0,
-                "bronze": 0
-            },
-            "split_time": 0
-        },
-        {
-            "team_name": "Les Lutins Verts",
-            "rider_type": "Rouleur",
-            "cups": {
-                "gold": 0,
-                "silver": 0,
-                "bronze": 0
-            },
-            "split_time": 0
-        },
-        {
             "team_name": "Attaque Noire",
             "rider_type": "Sprinter",
             "cups": {
-                "gold": 0,
+                "gold": 1,
                 "silver": 0,
                 "bronze": 0
             },
@@ -42,10 +22,20 @@
             "rider_type": "Rouleur",
             "cups": {
                 "gold": 0,
-                "silver": 0,
+                "silver": 1,
                 "bronze": 0
             },
-            "split_time": 0
+            "split_time": 30
+        },
+        {
+            "team_name": "Les Lutins Verts",
+            "rider_type": "Rouleur",
+            "cups": {
+                "gold": 0,
+                "silver": 0,
+                "bronze": 1
+            },
+            "split_time": 40
         },
         {
             "team_name": "Sacre Bleu",
@@ -55,7 +45,17 @@
                 "silver": 0,
                 "bronze": 0
             },
-            "split_time": 0
+            "split_time": 40
+        },
+        {
+            "team_name": "Les Lutins Verts",
+            "rider_type": "Sprinter",
+            "cups": {
+                "gold": 0,
+                "silver": 0,
+                "bronze": 0
+            },
+            "split_time": 40
         },
         {
             "team_name": "Sacre Bleu",
@@ -65,7 +65,7 @@
                 "silver": 0,
                 "bronze": 0
             },
-            "split_time": 0
+            "split_time": 2-10
         },
         {
             "team_name": "Sauvignon Blancs",
@@ -75,7 +75,7 @@
                 "silver": 0,
                 "bronze": 0
             },
-            "split_time": 0
+            "split_time": 3-10
         },
         {
             "team_name": "Sauvignon Blancs",
@@ -85,27 +85,27 @@
                 "silver": 0,
                 "bronze": 0
             },
-            "split_time": 0
+            "split_time": 3-10
         }
     ],
     "team_ranking": [
         {
+            "team_name": "Attaque Noire",
+            "cups": {
+                "gold": 1,
+                "silver": 1,
+                "bronze": 0
+            },
+            "points": 5
+        },
+        {
             "team_name": "Les Lutins Verts",
             "cups": {
                 "gold": 0,
                 "silver": 0,
-                "bronze": 0
+                "bronze": 1
             },
-            "points": 0
-        },
-        {
-            "team_name": "Attaque Noire",
-            "cups": {
-                "gold": 0,
-                "silver": 0,
-                "bronze": 0
-            },
-            "points": 0
+            "points": 1
         },
         {
             "team_name": "Sacre Bleu",

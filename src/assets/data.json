@@ -44,7 +44,7 @@
             "cups": {
                 "gold": 0,
                 "silver": 0,
-                "bronze": 2
+                "bronze": 1
             },
             "split_time": "3-30"
         },
@@ -116,7 +116,7 @@
             "cups": {
                 "gold": 0,
                 "silver": 0,
-                "bronze": 3
+                "bronze": 2
             },
             "points": 2
         },

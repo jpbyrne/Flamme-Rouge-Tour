@@ -128,8 +128,16 @@
                 "bronze": 0
             },
             "points": 2
+        },
+        {
+            "team_name": "La Panthère Rose",
+            "cups": {
+                "gold": 0,
+                "silver": 1,
+                "bronze": 0
+            },
+            "points": 2
         }
-        
         
     ]
 }

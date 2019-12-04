@@ -4,7 +4,7 @@
         "Les Lutins Verts": { "team_color": "Green" },
         "Sacre Bleu": { "team_color": "Blue"},
         "Sauvignon Blancs": {"team_color": "White"},
-        "La Panthère Rose": {"team_color: pink"}
+        "La Panthere Rose": {"team_color: pink"}
     },
     "stage": { "completed": 2, "total": 5 },
     "time_ranking": [
@@ -130,7 +130,7 @@
             "points": 2
         },
         {
-            "team_name": "La Panthère Rose",
+            "team_name": "La Panthere Rose",
             "cups": {
                 "gold": 0,
                 "silver": 1,

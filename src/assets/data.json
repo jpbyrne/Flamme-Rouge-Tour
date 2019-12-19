@@ -6,7 +6,7 @@
         "Sauvignon Blancs": {"team_color": "White"},
         "La Panthere Rose": {"team_color": "pink"}
     },
-    "stage": { "completed": 3, "total": 5 },
+    "stage": { "completed": 5, "total": 5 },
     "time_ranking": [
         {
             "team_name": "Attaque Noire",

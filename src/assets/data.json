@@ -12,7 +12,7 @@
             "team_name": "Attaque Noire",
             "rider_type": "Rouleur",
             "cups": {
-                "gold": 1,
+                "gold": 2,
                 "silver": 1,
                 "bronze": 0
             },
@@ -26,7 +26,7 @@
                 "silver": 2,
                 "bronze": 0
             },
-            "split_time": "40"
+            "split_time": "2-00"
         },
         {
             "team_name": "Sacre Bleu",
@@ -34,19 +34,19 @@
             "cups": {
                 "gold": 1,
                 "silver": 0,
-                "bronze": 0
+                "bronze": 1
             },
-            "split_time": "1-10"
+            "split_time": "2-30"
         },
         {
             "team_name": "Sauvignon Blancs",
             "rider_type": "Rouleur",
             "cups": {
                 "gold": 0,
-                "silver": 1,
+                "silver": 2,
                 "bronze": 1
             },
-            "split_time": "2-40"
+            "split_time": "3-50"
         },
         {
             "team_name": "Les Lutins Verts",
@@ -56,7 +56,7 @@
                 "silver": 0,
                 "bronze": 1
             },
-            "split_time": "2-40"
+            "split_time": "5-10"
         },
         {
             "team_name": "Les Lutins Verts",
@@ -66,7 +66,7 @@
                 "silver": 0,
                 "bronze": 1
             },
-            "split_time": "4-50"
+            "split_time": "7-20"
         },
         {
             "team_name": "Attaque Noire",
@@ -76,7 +76,7 @@
                 "silver": 0,
                 "bronze": 0
             },
-            "split_time": "5-20"
+            "split_time": "8-50"
         },
         {
             "team_name": "Sauvignon Blancs",
@@ -86,7 +86,7 @@
                 "silver": 0,
                 "bronze": 0
             },
-            "split_time": "7-30"
+            "split_time": "11-00"
         }
         
         
@@ -96,20 +96,29 @@
         {
             "team_name": "Attaque Noire",
             "cups": {
-                "gold": 2,
+                "gold": 3,
                 "silver": 1,
                 "bronze": 0
             },
-            "points": 8
+            "points": 11
         },
         {
             "team_name": "Sacre Bleu",
             "cups": {
                 "gold": 1,
                 "silver": 2,
-                "bronze": 0
+                "bronze": 1
             },
-            "points": 7
+            "points": 8
+        },
+        {
+            "team_name": "Sauvignon Blancs",
+            "cups": {
+                "gold": 0,
+                "silver": 2,
+                "bronze": 1
+            },
+            "points": 5
         },
         {
             "team_name": "La Panthere Rose",
@@ -119,15 +128,6 @@
                 "bronze": 1
             },
             "points": 4
-        },
-        {
-            "team_name": "Sauvignon Blancs",
-            "cups": {
-                "gold": 0,
-                "silver": 1,
-                "bronze": 1
-            },
-            "points": 3
         },
         {
             "team_name": "Les Lutins Verts",
